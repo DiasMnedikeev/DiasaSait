@@ -1,0 +1,16 @@
+/* style.css */
+body {
+    font-family:  Lucida Console; /* шрифт */
+    background-color: #1b0202; /* светлый фон */
+    color: #ffffff; /* темный текст */
+    margin: 0; /* убираем отступы по краям */
+    padding: 0; /* убираем внутренние отступы */
+    
+}
+
+h1 {
+    color: #ffffff; /* зеленый цвет текста */
+    text-align: center; /* выравнивание по центру */
+    margin-top: 50px; /* отступ сверху */
+    text-shadow: 2;
+}
