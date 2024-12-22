@@ -1,16 +1,40 @@
 /* style.css */
 body {
     font-family:  Lucida Console; /* шрифт */
-    background-color: #1b0202; /* светлый фон */
+    position: center;
+    background-color: #ffffff; /* светлый фон */
     color: #ffffff; /* темный текст */
     margin: 0; /* убираем отступы по краям */
     padding: 0; /* убираем внутренние отступы */
+        background-image: url("alps.jpg.webp"); /* Путь к твоему изображению */
+        background-size: cover; /* Изображение растянется на весь экран */
+        background-position: center; /* Центрирование изображения */
+        background-repeat: no-repeat; /* Избежать повторения картинки */
+    
+    
     
 }
 
 h1 {
     color: #ffffff; /* зеленый цвет текста */
+    position: center;
     text-align: center; /* выравнивание по центру */
     margin-top: 50px; /* отступ сверху */
     text-shadow: 2;
 }
+nav a {
+    display: inline-block; /* Делает ссылки выглядеть как кнопки */
+    padding: 10px 20px; /* Добавляет отступы вокруг текста */
+    margin: 5px; /* Расстояние между ссылками */
+    text-decoration: none; /* Убирает подчёркивание */
+    color: white; /* Цвет текста */
+    background-color: #007BFF; /* Фон ссылок (синий, как пример) */
+    border-radius: 5px; /* Скругление углов */
+    transition: background-color 0.3s; /* Анимация при наведении */
+}
+
+/* Эффект при наведении */
+nav a:hover {
+    background-color: #0056b3; /* Более тёмный синий при наведении */
+}
+
